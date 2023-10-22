@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wraper{
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.continer{
+   display: grid;
+    width: 30%;
+    height: 30vh;
+    border: 2px solid black;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    background-color:#ffffff;
+}
+.count{
+    width: 30px;
+    overflow: hidden;
+}
